@@ -1,0 +1,96 @@
+ body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #eef2f7;
+            margin: 0;
+        }
+
+header {
+            position: fixed;
+            width: 100%;
+            background: rgb(3, 3, 58);
+            color: white;
+            padding: 15px 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 22px;
+        }
+
+        nav a {
+            color: white;
+            margin-left: 25px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #00bcd4;
+        }
+
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .flight-card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .route {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .city {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .time {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .arrow {
+            font-size: 20px;
+            color: #0d1b2a;
+        }
+
+        .details {
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+        }
+
+        .price {
+            margin-top: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #0d1b2a;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 10px;
+            width: 100%;
+            border: none;
+            background: #0d1b2a;
+            color: white;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #1b263b;
+        }

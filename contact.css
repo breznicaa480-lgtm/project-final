@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #f5f7fa;
+}
+
+.contact-section {
+    display: flex;
+    min-height: 100vh;
+}
+
+.left {
+    flex: 1;
+    background: #0d1b2a;
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.left p {
+    margin-bottom: 15px;
+    color: #cbd5e1;
+}
+
+.right {
+    flex: 1;
+    background: white;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+}
+
+form {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+form h2 {
+    margin-bottom: 20px;
+    color: #0d1b2a;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #0d1b2a;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #1b263b;
+}
+
+@media (max-width: 768px) {
+    .contact-section {
+        flex-direction: column;
+    }
+}
